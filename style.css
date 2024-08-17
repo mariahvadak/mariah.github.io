@@ -1,24 +1,72 @@
-body{
-	background-color: #FFFFF2;
-}
+body {
+	margin: 0;
+  }
 
-nav{
-	overflow: hidden;
-}
-nav a{
-	float: left;
-	color: #8A2421;
-	text-align: center;
-	padding: 14px 16px;
+  a {
 	text-decoration: none;
-	font-size: 17px;
-}
-/* Change the color of links on hover */
-nav a:hover {
-	font-weight: bolder;
   }
   
-/* Add a color to the active/current link */
-nav a.active {
+  .flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	color: #8A2421;
+  }
+  
+  .nav a {
+	color: #8A2421;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 18px;
+  }
+  
+  .nav a:hover {
 	font-weight: bold;
+  }
+  
+  .name {
+	font-size: 20px;
+  }
+
+  .portrait {
+	width: 500px;
+	padding: 20%;
+  }
+  
+
+  .buttons {
+	display: inline-block;
+	padding: 10px 30px;
+	color: #8A2421;
+	background-color: transparent;
+	border: 2px solid #8A2421;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.buttons:hover {
+	color: white;
+	background-color: #8A2421;
+}
+
+.contact{
+	border: 0px;
+	border-radius: 2%;
+	box-shadow: 0px 0px 40px #8A2421;
+	border-style: solid;
+	margin: auto;
+}
+
+.contact-mini{
+	border: #8A2421 1px;
+	border-radius: 2%;
+	border-style: solid;
+	margin: 5%;
+	display: flex;
+	width: 250px; 
+	height: 250px;
 }

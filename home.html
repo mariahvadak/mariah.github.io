@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Placeholder for the navigation bar -->
+    <div id="navbar"></div>
+
+    <script>
+        // Load the navbar content
+        fetch('index.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+            });
+    </script>
+
+    <!-- Rest of your page content -->
+    <div id="home" class="flex-container">
+        <div>
+            <img src="Images/portrait.png" alt="Abstract Portrait" class="portrait">
+        </div>
+        <div style="width: 40%; padding-right: 5%;">
+            <h1>Hi, I’m Mariah!</h1>
+            </br>
+            <h1>I’m a Computer Science major at the University of Oklahoma with a love for UI/UX</h1>
+        </div>
+    </div>
+
+    </br>
+
+    <div id="about" class="flex-container" style="padding-top: 10%;">
+        <div style="width: 40%; padding-left: 5%;">
+            <h1>Hi, I’m Mariah!</h1>
+            </br>
+            <h1>I’m a Computer Science major at the University of Oklahoma with a love for UI/UX</h1>
+
+            <a href="Images/mariahvadakekut_resume.pdf" class="buttons">Checkout My &#10024Resume&#10024</a>
+        </div>
+        <div style="padding-right: 10%;">
+            <img src="Images/profile.jpg" alt="Profile picture" style="width: 400px; border-radius: 50%;">
+        </div>
+    </div>
+
+    <div id="projects" class="flex-container" style="padding-top: 10%;">
+        <div style="width: 40%; padding-left: 5%;">
+            <h1>Hi, I’m Mariah!</h1>
+            </br>
+            <h1>I’m a Computer Science major at the University of Oklahoma with a love for UI/UX</h1>
+
+            <a href="Images/mariahvadakekut_resume.pdf" class="buttons">Checkout My &#10024Resume&#10024</a>
+        </div>
+        <div style="padding-right: 10%;">
+            <img src="Images/proj1_highlight.png" alt="Profile picture" style="width: 400px; border-radius: 50%;">
+        </div>
+    </div>
+
+    <div id="contacting" style="padding-top: 20%;">
+        <div class="contact" style="width: 90%; height: 500px;">
+            <div class="flex-container">
+                <div class="contact-mini">
+                    <p>Wassup</p>
+                </div>
+                <div class="contact-mini">
+                    <p>Wassup</p>
+                </div>
+                <div class="contact-mini">
+                    <p>Wassup</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="projects" class="flex-container" style="padding-top: 10%;">
+        <div style="width: 40%; padding-left: 5%;">
+            <h1>Hi, I’m Mariah!</h1>
+            </br>
+            <h1>I’m a Computer Science major at the University of Oklahoma with a love for UI/UX</h1>
+
+            <a href="Images/mariahvadakekut_resume.pdf" class="buttons">Checkout My &#10024Resume&#10024</a>
+        </div>
+        <div style="padding-right: 10%;">
+            <img src="Images/proj1_highlight.png" alt="Profile picture" style="width: 400px; border-radius: 50%;">
+        </div>
+    </div>
+
+</body>
+</html>
