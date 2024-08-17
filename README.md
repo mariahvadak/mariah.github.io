@@ -3,7 +3,7 @@
 Hey there! 👋 Thanks for stopping by and checking out [my website](https://mariahvadak.github.io/web-portfolio/), feel free to take off your shoes and stay awhile:)
 
 ## 👩‍💻 Who Am I?
-I'm just a regular human (well, mostly) who's a computer science major with a passion for traveling, baking, sketching, knitting, and all things artsy. This is my space to share a bit about myself, showcase some past projects, and hopefully learn something along the way.
+I'm a computer science major with a passion for traveling, baking, sketching, knitting, and all things artsy. This is my space to share a bit about myself, showcase some past projects, and hopefully learn something along the way.
 
 ## 🎨 What's This Website About?
 This website is like a digital scrapbook of my past projects, and a little about me. I wanted a space to try out new things I have learned and show off what I can do. Here, you'll find:
